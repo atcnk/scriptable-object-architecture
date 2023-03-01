@@ -23,6 +23,18 @@ It has references for 14 different value types:
 - Vector3
 - Vector4
 
+Add 'Reference' word end of the type that you want to use (for int, IntReference) 
+
+![alt text](https://i.imgur.com/wVMt5Xx.jpg)
+
+Create scriptable variable on project.
+
+![alt text](https://i.imgur.com/pybcxVM.jpg)
+
+Assign varible to reference variable. You can also use constant value for testing. (it always uses the same value)
+
+![alt text](https://i.imgur.com/oC62Adp.jpg)
+
 You can use Game Event Listener Component to invoke Game Event (as a scriptable object). It's easy to set on editor. (use X to invoke TestGameEvent)
 
 ![alt text](https://i.imgur.com/24V0i9W.jpg)
