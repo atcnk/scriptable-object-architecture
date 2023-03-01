@@ -35,13 +35,13 @@ Assign varible to reference variable. You can also use constant value for testin
 
 ![alt text](https://i.imgur.com/oC62Adp.jpg)
 
-You can use Game Event Listener Component to invoke Game Event (as a scriptable object). It's easy to set on editor. (use X to invoke TestGameEvent)
+You can use Game Event Listener Component to invoke Game Event (as a scriptable object). It's easy to set on editor. (press X to invoke TestGameEvent on TestScene)
 
 ![alt text](https://i.imgur.com/24V0i9W.jpg)
 
 ![alt text](https://i.imgur.com/4CibpZz.jpg)
 
-If Game Event Listener Component gets any references as an Event (like float, bool - any of 14 different value type), it invokes when the reference value is changed. (use Z to change testIntReference's value)
+If Game Event Listener Component gets any references as an Event (like float, bool - any of 14 different value type), it invokes when the reference value is changed. (press Z to change testIntReference's value on TestScene)
 
 ![alt text](https://i.imgur.com/j6La50F.jpg)
 
