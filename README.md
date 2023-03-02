@@ -2,9 +2,11 @@
 
 This is my scriptable object architecture project. This system makes project more data-oriented. It's based on Ryan Hipple's 2017 Unite talk. (https://www.youtube.com/watch?v=raQ3iHhE_Kk)
 
-![alt text](https://i.imgur.com/SkSIJCu.jpg)
+With this architecture you can save too many different data types into scriptable objects. This is important for remote control because it helps you to change values of your game when the game is live, without any update. You can change economy, difficulty etc. of your game. 
 
-You can test it on TestScene with X (Game Event) and Z (Reference) shortcuts on runtime.
+When we test (ARPU) our game it really helped us to change values easily without any update. When the game is live, we changed the economy as feedbacks came. It was so easy to use.
+
+![alt text](https://i.imgur.com/SkSIJCu.jpg)
 
 It has references for 14 different value types:
 
@@ -22,6 +24,8 @@ It has references for 14 different value types:
 - Vector2
 - Vector3
 - Vector4
+
+You can test it on TestScene with X (Game Event) and Z (Reference) shortcuts on runtime.
 
 Add 'Reference' word end of the type that you want to use (for int, IntReference) 
 
